@@ -16,3 +16,5 @@ height = depth.get_height()
 print (width, " ", height)
 dist_to_center = depth.get_distance(int(width/2), int(height/2))    #getting dist from middle pixel for testing
 print (dist_to_center)
+
+p.stop()
