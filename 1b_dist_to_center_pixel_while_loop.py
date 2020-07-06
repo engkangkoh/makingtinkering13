@@ -5,6 +5,7 @@
 """
 
 import pyrealsense2 as rs                                           #importing realsense library
+import time
 
 p = rs.pipeline()                                                   #establishing connection with the realsense depth cam
 p.start()
@@ -25,7 +26,6 @@ while True:
         dist = getinfo()
 
     else:
-        #led_off()
         time.sleep(1)
         dist = getinfo()
 
